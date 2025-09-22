@@ -1,7 +1,5 @@
 # Danh sách Hook React (React 18 + React 19)
 
-Sắp xếp theo **độ phổ biến (5 ⭐ -> 1 ⭐)**
-
 ---
 
 #### ⭐⭐⭐⭐⭐ (Rất hay dùng)
