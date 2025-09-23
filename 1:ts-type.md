@@ -1,5 +1,10 @@
 # Danh sách các Type trong TypeScript
 
+Trong TS hỗ trợ hệ thống type từ cơ bản năng cao đến phức tạp, dùng để:
+- Gợi ý trong code editor
+- Gợi ý cho người viết code tiếp theo
+- Bắt lỗi có thể có, trước khi hệ thống thực thi
+
 ## 1. Kiểu dữ liệu cơ bản (Primitive Types)
 
 ### number

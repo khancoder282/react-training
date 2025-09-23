@@ -1,6 +1,6 @@
 # Danh sách Hook React (React 18 + React 19)
 
----
+Hook là các logic xử lý DOM ảo trong react
 
 #### ⭐⭐⭐⭐⭐ (Rất hay dùng)
 
