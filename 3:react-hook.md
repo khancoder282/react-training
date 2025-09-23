@@ -180,7 +180,7 @@ export default function SearchList({ items }: { items: string[] }) {
 }
 ```
 
-## startTransition
+## useTransition
 
 ```jsx
 import React, { useState, useTransition } from "react";
