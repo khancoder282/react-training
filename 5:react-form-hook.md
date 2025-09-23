@@ -163,13 +163,13 @@ ban đầu. khi reset sẽ thay đổi, nếu dùng `reset()` thì sẽ giữ ng
 
 ## 4. useForm
 
-`useForm({mode: 'onSubmit'})`: ✅ (Mặc định) Validation chỉ chạy khi submit form (handleSubmit).
-`useForm({mode: 'onBlur'})`:
+- `useForm({mode: 'onSubmit'})`: ✅ (Mặc định) Validation chỉ chạy khi submit form (handleSubmit).
+- `useForm({mode: 'onBlur'})`:
 Validation chạy khi người dùng rời khỏi input.
-`useForm({mode: 'onBlur'})`: Validation chạy ngay khi input thay đổi.
-`useForm({mode: 'onTouched'})`: Validation chạy khi input bị chạm vào và blur.
-`useForm({mode: 'all'})`: Kết hợp: chạy validation cả blur + change + submit.
-`useForm({mode: 'onChange'})`: Validation sẽ chạy mỗi khi giá trị input thay đổi.
+- `useForm({mode: 'onBlur'})`: Validation chạy ngay khi input thay đổi.
+- `useForm({mode: 'onTouched'})`: Validation chạy khi input bị chạm vào và blur.
+- `useForm({mode: 'all'})`: Kết hợp: chạy validation cả blur + change + submit.
+- `useForm({mode: 'onChange'})`: Validation sẽ chạy mỗi khi giá trị input thay đổi.
 
 Sau khi nhấn submit thì nó sẽ chuyển thành 'onChange' chủ động thay đổi bằng state
 
